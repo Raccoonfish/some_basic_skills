@@ -39,4 +39,4 @@ do dir_name=$(basename "$version")
   sed -i 's|host    all             all             127.0.0.1/32            scram-sha-256|host    all             all             192.168.108.0/22            scram-sha-256|' pg_hba.conf
     fi  
 done
-systemctl restart postgresql
+systemctl restart postgresql@18-main.service
