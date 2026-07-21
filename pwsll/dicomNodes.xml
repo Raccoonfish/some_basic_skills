@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+  <node 
+    description="Some PACS" 
+    type="DICOM" 
+    usageType="RETRIEVE" 
+    tsuid="NONE" 
+    aeTitle="YOUR_PACS_AE" 
+    hostname="usually.some.ip" 
+    port="11112">
+  </node>
+  
+  <node 
+    description="CHEL MZDRV" 
+    type="DICOM" 
+    usageType="RETRIEVE" 
+    tsuid="NONE" 
+    aeTitle="MZDRV_PACS" 
+    hostname="10.0.0.74" 
+    port="11112">
+  </node>
+  
+  <node 
+    description="PET" 
+    type="DICOM" 
+    usageType="RETRIEVE" 
+    tsuid="NONE" 
+    aeTitle="PET_CT_PACS" 
+    hostname="10.0.0.774" 
+    port="11112">
+  </node>
+</nodes>
