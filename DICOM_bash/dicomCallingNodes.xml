@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Port and hostname are not used for calling nodes-->
+<nodes>
+  <!-- Change aeTitle the  to one allowed on your target PACS server (the default 'WEASIS_AE' won't work). In my case, I use 'RADIANT' -->
+  <node description="Default" type="DICOM_CALLING" usageType="BOTH" tsuid="NONE" aeTitle="RADIANT"
+    hostname="localhost" port="11113"></node>
+  <node description="Default Query/Retrieve" type="DICOM_CALLING" usageType="RETRIEVE" tsuid="NONE"
+    aeTitle="RADIANT"
+    hostname="localhost" port="11113"></node>
+</nodes>
